@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WelcomeController {
 
     @GetMapping
-    public ResponseEntity<String> welcome(){
+    public ResponseEntity<ImsResponse> welcome(){
         return ImsResponse.success("Welcome to Ims Core", true);
     }
 }
