@@ -14,7 +14,7 @@ import rapifuzz.com.ims.service.IncidentService;
 
 @RestController
 @RequestMapping("/")
-public class IncidentController {
+public class WelcomeController {
 
     @GetMapping
     public ResponseEntity<String> welcome(){
