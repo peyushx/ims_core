@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import rapifuzz.com.ims.model.response.ImsResponse;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping("/")
