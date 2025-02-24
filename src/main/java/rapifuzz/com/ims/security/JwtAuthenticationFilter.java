@@ -28,6 +28,7 @@ public final class JwtAuthenticationFilter extends OncePerRequestFilter {
     private static final String[] AUTH_WHITELIST = {
             "/api/v1/user/signup",
             "/api/v1/user/login",
+            "/"
     };
     private final UserDetailService userDetailService;
 
