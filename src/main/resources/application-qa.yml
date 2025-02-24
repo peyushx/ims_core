@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+secret:
+  key: "imscore_wopienrbuocmpoqicnaoicneooieqcnow"
+
+spring:
+  application:
+    name: imscore
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://13.126.7.210:3306/ims_core
+    username: imsuser
+    password: root@123
+  jpa:
+    show-sql: true
+    hibernate:
+      connection:
+        characterEncoding: utf8
+        CharSet: utf8
+        useUnicode: true
+      ddl-auto: update
