@@ -9,7 +9,7 @@ spring:
     name: imscore
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://13.126.7.210:3306/ims_core
+    url: jdbc:mysql://35.154.8.180:3306/ims_core
     username: imsuser
     password: root@123
   jpa:
