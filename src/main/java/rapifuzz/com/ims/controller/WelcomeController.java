@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequestMapping("/")
 public class WelcomeController {
 
-    @GetMapping
+    @GetMapping("welcome")
     public ResponseEntity<ImsResponse> welcome(){
         return ImsResponse.success("Welcome to Ims Core", true);
     }
